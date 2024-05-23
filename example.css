@@ -1,0 +1,52 @@
+
+.large_header{
+  color:blue; 
+text-align:left;
+  
+   
+    @media screen and (min-width: 667px){
+       
+       text-align:center;
+      color: #222;
+      font-size:90px;
+      
+    }
+      
+}
+      
+    
+  
+   .medium_header{
+    
+    color:crimson;
+    text-align:right;
+    @media screen and (min-width: 768px) and(max-width:1366px){
+
+      text-align:left;
+
+    }
+    
+    }
+  
+  .small_header{
+  
+    color: darkseagreen;
+    text-align:center
+
+     } 
+  
+    .capitalize_para{
+  
+    font-size:38px;
+    text-transform:uppercase
+  }
+
+  .example-button{
+
+    background-color:burlywood;
+    color:blueviolet;
+    width: 80px;
+    height: 30px;border-radius: 10px;
+    font-size: 20px;
+   
+  }

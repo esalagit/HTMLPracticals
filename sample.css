@@ -1,0 +1,152 @@
+.web-view{
+
+@media screen and(max-width:992px) {
+
+    
+display: none;
+
+}
+
+@media screen and(max-width:992px){
+
+    display: block;
+}
+
+
+}
+
+
+.mobile-view{
+
+    @media screen and(min-width:600px) {
+
+
+    }
+
+
+}
+
+
+
+
+.sample_background{
+background-image: url("Images/rectengle.webp");
+background-repeat: no-repeat;
+height: 860px; 
+ background-size: cover; 
+
+ /* Make Responsiveness for Mobile devices */
+
+ @media screen and (max-width:992px){
+
+    height: 860px; 
+    width: 1260px;
+    
+ }
+
+}
+
+.main-section{
+ 
+     padding-top: 50px; 
+     padding-left: 80px; 
+
+}
+
+.header-alignment{
+
+font-size: 35px;
+color:mediumblue;
+font-weight: 100;
+text-align: left;
+
+ /* Make Responsiveness for Mobile devices */
+
+@media screen and (max-width:992px){
+
+    margin: top 20px; 
+      font: size 75px;
+  }
+  
+
+   
+  }
+
+
+
+
+.sub-header-alignment{
+
+    font-size: 25px;
+    color:mediumblue;
+    font-weight: 100;
+    padding-top: 10px;
+
+     /* Make Responsiveness for Mobile devices */
+
+    @media screen and (max-width:992px){
+
+        padding-top: 20px;
+        font: size 40px;
+}
+
+ }
+
+.btn-alignments{
+
+background-color: red;
+width: 100px;
+height: 40px;
+border-radius: 10px;
+margin-top: 20px;
+
+ /* Make Responsiveness for Mobile devices */
+
+@media screen and (max-width:992px){
+
+    width: 255px;
+    height: 70px;
+    margin: top 40px; 
+    font: size 40px;
+
+}}
+
+.btn-text{
+
+    font-size: 15px;
+    color:azure; 
+    font-weight: bold;
+}
+
+.card-alignment{
+    
+    width: 95%;
+}
+
+
+.image-alignments{
+    
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+   
+}
+.text-alignments{
+ 
+     
+    width: 1000px; 
+    padding-bottom: 20px; 
+    padding-top: 10px; 
+    padding-right: 300px;
+    text-align:left;
+    
+
+}
+
+
+.image-heading{
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
