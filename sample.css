@@ -33,6 +33,7 @@ display: none;
 background-image: url("Images/rectengle.webp");
 background-repeat: no-repeat;
 height: 860px; 
+ width: 1500px; 
  background-size: cover; 
 
  /* Make Responsiveness for Mobile devices */
@@ -120,7 +121,7 @@ margin-top: 20px;
 
 .card-alignment{
     
-    width: 95%;
+    width: 70%;
 }
 
 
